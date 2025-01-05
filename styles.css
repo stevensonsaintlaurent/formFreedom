@@ -31,7 +31,18 @@ html {
   position: absolute;
   top: 25%;
   left: 5rem;
+  color: #fff;
+  width: 30rem;
   z-index: 100;
+}
+
+.banner h1 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.banner p {
+  font-size: 2rem;
 }
 
 .green-bg {
@@ -58,4 +69,38 @@ html {
   letter-spacing: 0.1rem;
   color: #fff;
   cursor: pointer;
+}
+
+/* =========================== Form ===================== */
+
+.signup-form {
+  width: 60rem;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10rem 0;
+}
+
+.signup-form h1 {
+  font-size: 4rem;
+  color: #3aaf9f;
+}
+
+.social-media {
+  display: flex;
+}
+
+.social-media i {
+  width: 4rem;
+  height: 4rem;
+  border: 0.1rem solid #777;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
