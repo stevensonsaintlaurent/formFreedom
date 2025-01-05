@@ -91,6 +91,8 @@ html {
   color: #3aaf9f;
 }
 
+/* ====== social media icon ============ */
+
 .social-media {
   display: flex;
 }
@@ -103,4 +105,36 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 2rem;
+  font-size: 2rem;
+  color: #555;
+}
+
+/* ======= form ===== */
+
+.signup-form p {
+  font-size: 1.8rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+/* ===== input ===== */
+
+.input-group {
+  position: relative;
+}
+.input-group input {
+  width: 28rem;
+  height: 5rem;
+  padding: 1rem 1rem 1rem 3rem;
+  background-color: #ddd;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.input-group i {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
 }
