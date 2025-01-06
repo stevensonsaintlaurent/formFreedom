@@ -49,14 +49,14 @@ html {
 }
 
 .green-bg {
-  width: 40%;
+  width: 100%;
   height: 100%;
   /* background-image: url(logo2025.jpg); */
   background: linear-gradient(to right, #3ab19b, #4cbf91);
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 0;
+  z-index: 50;
   transition: width 1.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
@@ -158,7 +158,7 @@ html {
   color: #555;
 }
 
-.input-group button {
+.signup-form button {
   width: 16rem;
   height: 5rem;
   background-color: #3aaf9f;

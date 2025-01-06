@@ -4,4 +4,7 @@ const signUpBtn = document.querySelector(".green-bg button");
 
 signUpBtn.addEventListener("click", () => {
   container.classList.toggle("change");
+  console.log("test");
 });
+
+console.log(container);
